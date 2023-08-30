@@ -1,0 +1,54 @@
+* TESTING COMMENTS AND VARIABLES
+
+string str_test = "Hello, World!";
+int int_test = 69;
+char char_test = "m"
+bool bool_test = true;
+
+string input = "";
+
+/* ----
+----
+----
+MULTILINE COMMENTS
+----
+----
+---- */
+
+io.write("The quick brown fox jumps over the lazy dog!");
+io.write("");
+
+io.write($str_test);
+io.write($int_test);
+io.write($char_test);
+io.write($bool_test);
+
+io.write("Yes!" + $str_test);
+io.write("Yes!" + $int_test);
+io.write("Yes!" + $char_test);
+io.write("Yes!" + $bool_test);
+
+io.read($input);
+io.write($input);
+
+func test {
+    io.write("FUNC TEST");
+}
+
+io.write("Wait");
+test();
+
+func test2($input) {
+    io.write(input);
+}
+
+io.write("Wait");
+test2();
+
+io.write(1 + 2);
+io.write(1 - 2);
+io.write(1 * 2);
+io.write(1 / 2);
+
+* THIS TEST DOES NOT GO OVER EVERY BUG
+* WE WILL DO OTHER TESTS THAT COVER WHAT WE MISSED

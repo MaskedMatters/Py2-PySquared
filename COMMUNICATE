@@ -1,0 +1,44 @@
+*Py^2:**
+-------------------------------------------
+-------------------------------------------
+INSTANTIATING VARIABLES: (STARTING OUT)
+
+STRING:     string string_test = "Hi!";
+INTEGER:    int int_test = 43110;
+CHARACTER:  char char_test = "a"
+BOOLEAN:    bool bool_test = true;
+
+# FLOAT:    float float_test = 4.3110;
+# DOUBLE:   double double_test = 4.3110000000000041;
+.
+-------------------------------------------
+-------------------------------------------
+INSTANTIATING FUNCTIONS: (STARTING OUT)
+
+FUNCTION: 
+func func_test(**PARAMETERS**) {
+    # STUFF #
+}
+
+INTERNAL FUNCTIONS: (STARTING OUT)
+
+OUTPUT (PRINT):   io.write("Hello, World!" + $var)
+INPUT:            io.read($var) <-- var is where the input 
+-------------------------------------------
+-------------------------------------------
+COMMENTS:
+
+SINGLE-LINE: *suffiscool vreycoolyes
+
+MULTI-LINE: /*gufwebsbhhbcfhswh
+wfghergjuhfhewfhuh i like stuff yesyes*/
+-------------------------------------------
+-------------------------------------------
+BASIC COMPUTATION:
+
+ADDING:        $var = 1 + 2
+SUBTRACTING:   $var = 1 - 2
+MULTIPLYING:   $var = 1 * 2
+DIVIDING:      $var = 1 / 2
+-------------------------------------------
+-------------------------------------------
